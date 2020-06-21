@@ -1,7 +1,6 @@
 import React, { Component }from 'react';
 import { Provider, connect } from "react-redux";
 import RootContainerComponent from "./container/RootContainerComponent"
-// import './App.css';import {Provider} from 'react-redux';
 import { createStore, applyMiddleware, compose } from "redux";
 import thunk from "redux-thunk";
 import rootReducers from "./reducers/rootReducers"
